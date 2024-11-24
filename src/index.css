@@ -1,6 +1,6 @@
 :root {
-  --color-lightest: #fff4e6;
-  --color-light: #ffe8cc;
+  --color-lightest: #f1e4d2;
+  --color-light: #ecdbc3;
   --color-medium: #ffa94d;
   --color-dark: #ff922b;
 }
@@ -28,7 +28,7 @@ body {
 .app {
   min-height: 66vh;
   display: grid;
-  /* grid-template-columns: 34rem 44rem; */
+  grid-template-columns: 36rem 36rem;
   column-gap: 4rem;
   align-items: start;
 
@@ -121,7 +121,7 @@ form {
 .form-add-friend {
   grid-template-columns: 1fr 1.5fr;
   margin-bottom: 1.6rem;
-  padding: 1.2rem;
+  padding: 1.1rem;
 }
 .form-split-bill {
   grid-template-columns: 1fr 12rem;
@@ -129,7 +129,7 @@ form {
 }
 
 label {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 label::first-letter {
