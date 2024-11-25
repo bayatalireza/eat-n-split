@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Button({children, onHandleSetShowForm}) {
-  return <button className="button" onClick={onHandleSetShowForm}>{children}</button>;
+export default function Button({children,onClick}) {
+  return <button className="button" onClick={onClick}>{children}</button>;
 }
